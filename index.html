@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -17,13 +17,8 @@
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
-
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
-  </head>
-<!-- NAVBAR
-================================================== -->
-<body>
 
     <script type="text/x-handlebars">
         <div class="navbar-wrapper">
@@ -46,13 +41,13 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Data Acqusition</a></li>
-                                        <li><a href="#">Data Analysis</a></li>
-                                        <li><a href="#">Data Visualization</a></li>
+                                        <li class="dropdown-header">Our Services</li>
+                                        <li><a href="#acquisition">Data Acqusition</a></li>
+                                        <li><a href="#analysis">Data Analysis</a></li>
+                                        <li><a href="#visualization">Data Visualization</a></li>
                                         <li class="divider"></li>
-                                        <li class="dropdown-header">Apps</li>
-                                        <li><a href="#">Xiwami</a></li>
-                                        <li><a href="#">Cosmi</a></li>
+                                        <li class="dropdown-header">Our Apps</li>
+                                        <li><a href="#xiwami">Xiwami</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -68,8 +63,88 @@
         <div class="container marketing">
             <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2013 Adarp LLC. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                <p>&copy; 2014 Adarp LLC. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
+        </div>
+    </script>
+
+    <script type="text/x-handlebars" data-template-name="acquisition">
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Data Acquisition</h1>
+                    <section>
+                        <p>
+                            The first step to take advantage of your data is to find them and somehow figure out a way to gather them if more features are needed.  At a minium, every living organization
+                            should allow stakeholders to search documents that are generated everyday from daily activities.  You can use Google Custom Search, but if that doesn't satisfy you, we can help.
+                        </p>
+                        <p>
+                            If most of your usable data is in database, then you actually are better off than most people.  We can still help you to aggregate and trnsform data so we can do fun things on them.
+                        </p>
+                        <p>
+                            There are many options of data storage that are available to everyone today: rour network drive.  Google Drive.  Sky Drive.  Whatever Drive.
+                            Don't worry, we've built connectors that can connect to those sources and get your data into a centralized location for search or machine learning.
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/x-handlebars" data-template-name="analysis">
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Data Analysis</h1>
+                    <section>
+                        We offer the following services to help you analye, and more importantly, making sense of your data:
+                        <ul>
+                            <li>
+                                We can build a recommendation engine for you.
+                            </li>
+                            <li>
+                                Text mining
+                            </li>
+
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/x-handlebars" data-template-name="xiwami">
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Stay tuned</h1>
+                    <section>
+                        We are about to release our first product Xiwami.  It's a reading application that allows you to manage and discover your favorite online articles
+                    </section>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/x-handlebars" data-template-name="visualization">
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Data Visualization</h1>
+                    <section>
+                        Reporting
+                        <ul>
+                            <li>
+                                
+                            </li>
+                            <li>
+                                
+                            </li>
+
+                        </ul>
+                    </section>
+                </div>
+            </div>
         </div>
     </script>
 
@@ -79,6 +154,7 @@
                 <div class="col-lg-4">
                     <h1>Contact Us</h1>
                     <p>
+                        Don't be shy, please contact us.  We offer free consulting.
                         Email: info@adarp.com<br />
                         Phone: 734-277-3203
                     </p>
@@ -86,62 +162,7 @@
             </div>
         </div>
         <!-- Wrap the rest of the page in another container to center all the content. -->
-        <div class="container marketing">
-            <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
-                    <h2>Data Acquisition</h2>
-                    <p>You have data in your local drive, network drive, Google drive and SkyDrive etc.  You have data embedded in your emails, in your excel files or in your PDF files.  No worry, we'll get all those data for you in a consolidated data store.</p>
-                    <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
-                    <h2>Data Analysis</h2>
-                    <p>Do you want to get more out of your current data?  Do you feel like you need some more data points that can help you make better decision?  We use the most up to date Big Data technologies to help you harness the wild beast of furballs.</p>
-                    <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
-                    <h2>Data Visualization</h2>
-                    <p>Data presentation is typically an afterthought in a data management system.  A well designed reports can reduce the overhead of deciphering data.  We can build sophisticated multi-dimensional reports and make those reports easy to digest.</p>
-                    <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-            <!-- START THE FEATURETTES -->
-            <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-            <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-            </div>
-            <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-            <hr class="featurette-divider">
-            <!-- /END THE FEATURETTES -->
-        </div><!-- /.container -->
+
     </script>
 
     <script type="text/x-handlebars" data-template-name="about">
@@ -150,70 +171,14 @@
                 <div class="col-lg-4">
                     <h1>About Adarp</h1>
                     <p>
-                        We are a consulting company located in Ann Arbor, MI.
-                        We are consists of three software engineers who are passionate about creating data driven applications.
+                        We are a consulting company located in Ann Arbor, MI.<br />
+                        We are consists of three software engineers who are passionate about creating data driven applications.<br />
                         We develop both on the web and mobile platforms.
                     </p>
                 </div>
             </div>
         </div>
         <!-- Wrap the rest of the page in another container to center all the content. -->
-        <div class="container marketing">
-            <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
-                    <h2>Data Acquisition</h2>
-                    <p>You have data in your local drive, network drive, Google drive and SkyDrive etc.  You have data embedded in your emails, in your excel files or in your PDF files.  No worry, we'll get all those data for you in a consolidated data store.</p>
-                    <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
-                    <h2>Data Analysis</h2>
-                    <p>Do you want to get more out of your current data?  Do you feel like you need some more data points that can help you make better decision?  We use the most up to date Big Data technologies to help you harness the wild beast of furballs.</p>
-                    <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
-                    <h2>Data Visualization</h2>
-                    <p>Data presentation is typically an afterthought in a data management system.  A well designed reports can reduce the overhead of deciphering data.  We can build sophisticated multi-dimensional reports and make those reports easy to digest.</p>
-                    <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-            <!-- START THE FEATURETTES -->
-            <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-            <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-            </div>
-            <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                </div>
-            </div>
-            <hr class="featurette-divider">
-            <!-- /END THE FEATURETTES -->
-        </div><!-- /.container -->
     </script>
 
     <script type="text/x-handlebars" data-template-name="index">
@@ -233,7 +198,7 @@
                         <div class="carousel-caption">
                             <h1>Affordable Data Management Solution</h1>
                             <p>We are sure you have a lot of data accumulated over the years that you don't even know they exist.  Or you know they are somewhere, but you just couldn't find them.</p>
-                            <p><a class="btn btn-large btn-primary" href="#">Sign up today</a></p>
+                            <p><a class="btn btn-large btn-primary" href="#contact">We can help</a></p>
                         </div>
                     </div>
                 </div>
@@ -242,8 +207,8 @@
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>Customized Data Analysis Solution</h1>
-                            <p>We are not IBM which can dispatch a horde of consultants to work on your projects.  We are a small team of data scientists and programmers who can help you to build an affordable solution tailored to your problem domain.</p>
-                            <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+                            <p>We are not big consulting companies which can dispatch a horde of consultants to work on your projects.  We are a small team of data scientists and programmers who can help you to build an affordable solution tailored to your problem domain.</p>
+                            <p><a class="btn btn-large btn-primary" href="#contact">Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -253,7 +218,7 @@
                         <div class="carousel-caption">
                             <h1>Real-Time Data Visualization Is Beautiful</h1>
                             <p>You are probably thinking about the data you want to see all the time.  Wouldn't it be fantastic that you can realize your visioin of making intuitive decision backed up by data driven logics?</p>
-                            <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
+                            <p><a class="btn btn-large btn-primary" href="#contact">Learn more</a></p>
                         </div>
                     </div>
                 </div>
@@ -271,27 +236,27 @@
                     <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
                     <h2>Data Acquisition</h2>
                     <p>You have data in your local drive, network drive, Google drive and SkyDrive etc.  You have data embedded in your emails, in your excel files or in your PDF files.  No worry, we'll get all those data for you in a consolidated data store.</p>
-                    <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+                    <p style="visibility:hidden"><a class="btn btn-default" href="#">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
                     <h2>Data Analysis</h2>
                     <p>Do you want to get more out of your current data?  Do you feel like you need some more data points that can help you make better decision?  We use the most up to date Big Data technologies to help you harness the wild beast of furballs.</p>
-                    <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+                    <p style="visibility:hidden"><a class="btn btn-default" href="#">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
                     <h2>Data Visualization</h2>
                     <p>Data presentation is typically an afterthought in a data management system.  A well designed reports can reduce the overhead of deciphering data.  We can build sophisticated multi-dimensional reports and make those reports easy to digest.</p>
-                    <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+                    <p style="visibility:hidden"><a class="btn btn-default" href="#">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
             <!-- START THE FEATURETTES -->
             <hr class="featurette-divider">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Hadoop, Hive and Cascading. <span class="text-muted">We utilize open source technologies.</span></h2>
+                    <p class="lead">In fact, what really matters is the result we deliver.</p>
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -303,15 +268,15 @@
                     <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
                 </div>
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">People talk about Big Data all the time. <span class="text-muted">See for yourself.</span></h2>
+                    <p class="lead">We show you what Big Data look like with your own data.</p>
                 </div>
             </div>
             <hr class="featurette-divider">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Prediction and Personalization. <span class="text-muted">I want both.</span></h2>
+                    <p class="lead">Yes, you can have them, without spending too much money.  Why?  Because that's how we started, and we didn't spend too much money either</p>
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -323,6 +288,12 @@
 
 
     </script>
+
+
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
